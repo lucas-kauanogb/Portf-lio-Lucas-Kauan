@@ -50,3 +50,6 @@ Aqui você encontrará desde desafios propostos em disciplinas até experimentos
 ## 📌 Observações
 
 Sinta-se à vontade para explorar os projetos, sugerir melhorias ou colaborar via pull requests!
+
+## Comentários
+Yan Fellipe - Trabalho excelente! A organização do repositório e a forma como os projetos estão documentados mostram dedicação e cuidado com os detalhes.
