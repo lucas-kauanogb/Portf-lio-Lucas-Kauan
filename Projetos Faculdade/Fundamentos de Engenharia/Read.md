@@ -1,34 +1,45 @@
-## 🚀 Bootcamp I – Desafio: Entrega Inicial
+# 🧪 Sistematização Experimental — Densidade e Flutuabilidade (PHET)
 
-Esta pasta reúne todos os materiais da **primeira entrega do Bootcamp I**, desenvolvida como parte do curso de Engenharia de Software. O objetivo foi reunir informações profissionais, apresentar um projeto pessoal e demonstrar competências fundamentais por meio de diferentes formatos de entrega.
-
----
-
-## 📁 Conteúdo da Pasta
-
-- ✅ **Currículo (Google Docs)**  
-  Documento com meus dados profissionais, formação, experiências e habilidades.  
-  🔗 [Acessar currículo](https://docs.google.com/document/d/1tA_dfKLxjUrgccpbDC53xopLlb4zNf7rNyPoqYUecpE/edit?usp=sharing)
-
-- ✅ **Apresentação: Habilidades, Competências e Projeto (Google Slides)**  
-  Slides explicando minhas principais habilidades, competências e um projeto pessoal em desenvolvimento.  
-  🔗 [Acessar apresentação](https://docs.google.com/presentation/d/1iaMjHFfzxS0FJ5lN-5YtqPGsSmOju0zxH_m8NGY6Ywk/edit?usp=sharing)
-
-- ✅ **Vídeo da Apresentação (YouTube)**  
-  Apresentação oral da primeira etapa do desafio, abordando os materiais acima.  
-  🔗 [Assistir no YouTube]( https://youtu.be/gJKqsLV7ccc
-)
-
-- ✅ **Agenda do Desafio (Google Calendar)**  
-  Planejamento e organização das atividades previstas para o desafio.  
-  🔗 [Ver agenda](https://calendar.google.com/calendar/u/0?cid=eWFuZnNuZXJpQGdtYWlsLmNvbQ)
-
-- ✅ **Google Sites Pessoal**  
-  Meu site pessoal com resumo das atividades e informações complementares.  
-  🔗 [Acessar site](https://sites.google.com/d/1OWBLHCgxirEHzVwDzg3La_P6RzadPoZJ/p/1sepICB6LqmhB4LutVYAMMqh4OmfF3Ca3/edit)
+Esta pasta contém o trabalho de sistematização apresentado como requisito parcial para a conclusão do curso de **Engenharia de Software** no **Centro Universitário de Brasília (CEUB)**. O estudo utilizou a simulação "Densidade", da plataforma **PHET**, para investigar o comportamento de objetos em meio líquido com base em sua massa, volume e densidade.
 
 ---
 
-## 🧠 Objetivo do Desafio
+## 🎯 Objetivo do Estudo
 
-Demonstrar organização, comunicação e iniciativa na construção da identidade profissional, por meio da integração de ferramentas como Google Docs, Slides, YouTube, Calendar e Sites.
+- Compreender como **massa**, **volume** e **densidade** influenciam a **flutuabilidade** de objetos.
+- Validar o **Princípio de Arquimedes** por meio de simulações interativas.
+- Analisar experimentalmente diferentes combinações de variáveis para observar o comportamento dos materiais.
+
+---
+
+## 🔬 Metodologia
+
+- Utilização de experimento virtual com **simulação PHET**.
+- Manipulação das variáveis: massa, volume e tipo de material.
+- Controle de condições como temperatura, forma e densidade da água.
+- Coleta e análise de dados com base em imagens e tabelas extraídas da simulação.
+- Realização de um **teste piloto** para garantir a precisão do protocolo experimental.
+
+---
+
+## 📈 Resultados
+
+- Objetos com **mesma massa** e **volumes diferentes**: o de maior volume flutua.
+- Objetos com **mesmo volume** e **massas diferentes**: o de maior massa afunda.
+- Objetos com **densidade igual à da água** permaneceram em equilíbrio.
+- A simulação confirmou o comportamento esperado segundo a **densidade relativa** dos corpos.
+
+---
+
+## ✅ Conclusão
+
+A simulação provou ser eficaz no ensino de conceitos fundamentais da física aplicada à engenharia. A análise validou as hipóteses propostas e reforçou a utilidade de ferramentas virtuais para experimentação científica.
+
+---
+
+## 📚 Referências
+
+- Plataforma PHET - Universidade do Colorado  
+- Toda Matéria - Densidade  
+- Mundo Educação - Densidade  
+- Blog Stoodi - Cálculo de Densidade
