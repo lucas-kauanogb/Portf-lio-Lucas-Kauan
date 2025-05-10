@@ -1,0 +1,427 @@
+//7- Faça um algoritmo que leia três números inteiros e determine qual dos três é maior.
+ALGORITMO_MAIOR_TRES_NUMEROS
+ VAR numero1, numero2, numero3 : REAL
+ INICIO
+   |ESCREVA("DIGITE O NÚMERO 1:")
+   |LEIA(numero1)
+   |ESCREVA("DIGITE O NÚMERO 2:")
+   |LEIA(numero2)
+   |ESCREVA("DIGITE O NÚMERO 3:")
+   |LEIA(numero3)
+   |  SE(numero1 > numero2) E (numero1 > numero3) ENTAO
+   |  |  ESCREVA("O maior número é:" + numero1")
+   |  SENAO SE(numero2 > numero1) E (numero2 > numero3) ENTAO
+   |  |  ESCREVA("O maior número é:" + numero2")
+   |  SENAO SE(numero3 > numero2) E (numero3 > numero1) ENTAO
+   |  |  ESCREVA("O maior número é:" + numero3")
+   |  SENAO
+   |  |  ESCREVA("Os números são iguais.")
+   | FIM-SE
+ FIM
+
+ALGORITMO_MAIOR_TRES_NUMEROS_C#
+Int64 numero1, numero2, numero3;
+Console.WriteLine("Digite o primeiro número:");
+numero1 = Convert.ToInt64(Console.ReadLine());
+Console.WriteLine("Digite o segundo número:");
+numero2 = Convert.ToInt64(Console.ReadLine());
+Console.WriteLine("Digite o terceiro número:");
+numero3 = Convert.ToInt64(Console.ReadLine());
+if (numero1 > numero2 && numero1 > numero3)
+{
+    Console.WriteLine("O maior número é: " + numero1);
+}
+else if (numero2 > numero1 && numero2 > numero3)
+{
+    Console.WriteLine("O maior número é: " + numero2);
+}
+else if (numero3 > numero1 && numero3 > numero2)
+{
+    Console.WriteLine("O maior número é: " + numero3);
+}
+else
+{
+    Console.WriteLine("Tem número iguais entre os maiores números");
+}
+
+//8- Elabore um algoritmo que dada a idade de um nadador classifique-o em uma das seguintes categorias:
+//Infantil A = 5 a 7 anos, Infantil B = 8 a 11 anos, Juvenil A = 12 a 13 anos, Juvenil B = 14 a 17 anos, Adultos = Maiores de 18 anos
+ALGORITMO_CATEGORIA_NATACAO
+ VAR idade : INTEIRO 
+ INICIO
+   |ESCREVA("DIGITE A IDADE DO NADADOR:")
+   |LEIA(idade)
+   |  SE (idade >= 5) E (idade <= 7) ENTAO
+   |  |  ESCREVA("Categoria: Infantil A (5 a 7 anos)")
+   |  SENAO SE (idade >= 8) E (idade <= 11) ENTAO
+   |  |  ESCREVA("Categoria: Infantil B (8 a 11 anos)")
+   |  SENAO SE (idade >= 12) E (idade <= 13) ENTAO
+   |  |  ESCREVA("Categoria: Juvenil A (12 a 13 anos)")
+   |  SENAO SE (idade >= 14) E (idade <= 17) ENTAO
+   |  |  ESCREVA("Categoria: Juvenil B (14 a 17 anos)") 
+   |  SENAO SE (idade >= 18) ENTAO
+   |  |  ESCREVA("Categoria: Adultos (Maiores de 18 anos)")
+   |  SENAO
+   |  |  ESCREVA("Idade Inválida.")
+   |  FIM-SE
+  FIM
+
+ALGORITMO_CATEGORIA_NATACAO_C#
+int idade;
+Console.WriteLine("Informe a idade do nadador:");
+idade = Convert.ToInt32(Console.ReadLine());
+if (idade >= 5 && idade <= 7)
+{
+    Console.WriteLine("Categoria: Infantil A (5 a 7 anos)");
+}
+else if (idade >= 8 && idade <= 11)
+{
+    Console.WriteLine("Categoria: Infantil B (8 a 11 anos)");
+}
+else if (idade >= 12 && idade <= 13)
+{
+    Console.WriteLine("Categoria: Juvenil A (12 a 13 anos)");
+}
+else if (idade >= 14 && idade <= 17)
+{
+    Console.WriteLine("Categoria: Juvenil B (14 a 17 anos)");
+}
+else if (idade >= 18)
+{
+    Console.WriteLine("Categoria: Adultos (maiores de 18 anos)");
+}
+else
+{
+    Console.WriteLine("Idade inválida.");
+}
+
+//9- Elaborar um programa que leia três valores para os lados de um triângulo, considerando lados como A, B e C. Verificar se os lados fornecidos formam um triângulo, e se for esta condição verdadeira, deve ser indicado o tipo de triângulo formado: isósceles, escaleno ou equilátero.
+ALGORITMO_TRIANGULOS_LADOS
+ VAR ladoA, ladoB, LadoC : REAL
+ INICIO
+   |ESCREVA("DIGITE O PRIMEIRO LADO:")
+   |LEIA(ladoA)
+   |ESCREVA("DIGITE O SEGUNDO LADO:")
+   |LEIA(ladoB)
+   |ESCREVA("DIGITE O TERCEIRO LADO:")
+   |LEIA(ladoC)
+   |  SE (ladoA + ladoB > ladoC) E (ladoA + ladoC > ladoB) E (ladoB + ladoC > ladoA) ENTAO
+   |  SE (ladoA = ladoB) E (ladoB = ladoC) ENTAO
+   |  |  ESCREVA("Triangulo Equilatero.")
+   |  SE (ladoA = ladoB) Ou (ladoA = ladoC) Ou (ladoB = ladoC) ENTAO
+   |  |  ESCREVA("Triangulo Isosceles.")
+   |  SENAO
+   |  |  ESCREVA("Triangulo Escaleno.")
+   |  FIM-SE
+   |  SENAO
+   |  |  ESCREVA("Os lados fornecidos não formam um triangulo.")
+ FIM
+
+ALGORITMO_TRIANGULOS_LADOS_C#
+double ladoA, ladoB, ladoC;
+Console.WriteLine("Digite o valor do primeiro lado: ");
+ladoA = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Digite o valor do segundo lado: ");
+ladoB = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Digite o valor do terceiro lado: ");
+ladoC = Convert.ToDouble(Console.ReadLine());
+if ((ladoA + ladoB > ladoC) && (ladoA + ladoC > ladoB) && (ladoB + ladoC > ladoA))
+{
+    if (ladoA == ladoB && ladoA == ladoC)
+    {
+        Console.WriteLine("Os lados formam um triângulo equilátero.");
+    }
+    else if (ladoA == ladoB || ladoA == ladoC || ladoB == ladoC)
+    {
+        Console.WriteLine("Os lados formam um triângulo isósceles.");
+    }
+    else
+    {
+        Console.WriteLine("Os lados formam um triângulo escaleno.");
+    }
+}
+else
+{
+    Console.WriteLine("Os lados fornecidos não formam um triângulo.");
+}
+
+//10- Faça um algoritmo que receba a matrícula e duas notas do aluno. Calcular a média e mostrar a matrícula do aluno com as seguintes mensagens de acordo com os dados a seguir:
+MÉDIA MENSAGEM  Média > 7,0 “Aluno Aprovado”
+                Média = 7,0 “Aluno em Recuperação”
+                Média < 7,0 “Aluno Reprovado”
+ALGORITMO_MATRICULA_ALUNO
+ VAR nota1, nota2, media : REAL
+     matricula : CARACTER
+ INICIO
+   |ESCREVA("DIGITE A MATRICULA:")
+   |LEIA(matricula)
+   |ESCREVA("DIGITE A PRIMEIRA NOTA:")
+   |LEIA(nota1)
+   |ESCREVA("DIGITE A SEGUNDA NOTA:")
+   |LEIA(nota2)
+   |  media← nota1 + nota2 / 2
+   |  SE (media > 7) ENTAO
+   |  |  ESCREVA(matricula + "Aluno Aprovado, Média = " + media)
+   |  SENAO SE (media < 7) ENTAO
+   |  |  ESCREVA(matricula + "Aluno Reprovado, Média = " + media)
+   |  SENAO
+   |  |  ESCREVA(matricula + "Aluno em Recuperação, Média = " + media)
+   |  FIM-SE
+  FIM
+
+ALGORITMO_MATRICULA_ALUNO_C#
+double nota1, nota2, media;
+string matricula;
+Console.WriteLine("Digite a matrícula do Aluno(a):");
+matricula = Console.ReadLine();
+Console.WriteLine("Digite a primeira nota do Aluno(a):");
+nota1 = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Digite a segunda nota do Aluno(a):");
+nota1 = Convert.ToDouble(Console.ReadLine());
+media = (nota1 + nota1) / 2;
+if (media > 7)
+{
+    Console.WriteLine("Matricula do Aluno:" + matricula);
+    Console.WriteLine("Aluno Aprovado.");
+}
+else if (media < 7)
+{
+    Console.WriteLine("Matricula do Aluno:" + matricula);
+    Console.WriteLine("Aluno Reprovado.");
+}
+else
+{
+    Console.WriteLine("Matricula do Aluno:" + matricula);
+    Console.WriteLine("Aluno em Recuperação.");
+}
+
+//11- Escreva um algoritmo que receba o código, o preço e o tamanho da camiseta. Sabe-se que de acordo com o tamanho há um desconto conforme tabela abaixo. Informar o código, e o valor do desconto. TAMANHO DESCONTO “G” 10%, “M” 20%, “P” 30%. O algoritmo deverá informar como saída o código, o tamanho da camisa, valor da camisa sem o desconto e com o desconto.
+ALGORITMO_CAMISA
+ VAR codigo, tamanho : CARACTER
+     precoCamisa, desconto : REAL
+ INICIO
+   |ESCREVA("DIGITE O CODIGO DA CAMISA:")
+   |LEIA(codigo)
+   |ESCREVA("DIGITE O PRECO DA CAMISA:")
+   |LEIA(precoCamisa)
+   |ESCREVA("DIGITE O TAMANHO DA CAMISA (G, M ou P):")
+   |LEIA(tamanho)
+   |  desconto← 0 
+   |  SE (tamanho = "G") ENTAO
+   |  |  desconto← (precoCamisa * 0.10) - precoCamisa
+   |  SENAO SE (tamanho = "P") ENTAO
+   |  |  desconto← (precoCamisa * 0.30) - precoCamisa
+   |  SENAO SE (tamanho = "M") ENTAO
+   |  |  desconto← (precoCamisa * 0.20) - precoCamisa
+   |  SENAO 
+   |  |  ESCREVA("Tamanho Inexistente.")
+   |  FIM-SE
+   |  ESCREVA("O Código da camiseta é:", + codigo)
+   |  ESCREVA("O Tamanho da camiseta é:", + tamanho)
+   |  ESCREVA("O Preço da camisa sem desconto é: R$", + precoCamisa)
+   |  ESCREVA("O Preço da camisa com desconto é: R$", + precoComDesconto)
+  FIM
+
+ALGORITMO_CAMISA_C#
+double precoOriginal, valorDesconto, precoDesconto;
+string codigo, tamanho;
+Console.WriteLine("Digite o código da camiseta: ");
+codigo = Console.ReadLine();
+Console.WriteLine("Digite o preço da camiseta:");
+precoOriginal = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("Digite o tamanho da camiseta: ");
+tamanho = Console.ReadLine();
+valorDesconto = 0;
+if (tamanho == "G")
+{
+    valorDesconto = precoOriginal * 0.10;
+}
+else if (tamanho == "M")
+{
+    valorDesconto = (precoOriginal * 0.20);
+}
+else if (tamanho == "P")
+{
+    valorDesconto = (precoOriginal * 0.30);
+}
+else
+{
+    Console.WriteLine("Tamanho Inexistente.");
+    return;
+}
+precoDesconto = precoOriginal - valorDesconto;
+
+Console.WriteLine("O Código da camisa é: " + codigo);
+Console.WriteLine("O Tamanho da camisa é: " + tamanho);
+Console.WriteLine("O Preço da camisa sem desconto é: R$ " + precoOriginal);
+Console.WriteLine("O Preço da camisa com desconto é: R$ " + precoDesconto);
+
+//12- Crie um algoritmo para cálculo do imposto de renda sobre o salário tomando por base as seguintes regras:
+salário até R$ 1.200,00: isento de Imposto de Renda;
+salário de R$ 1.201,00 a R$ 2.500,00: aplicar alíquota de 5%;
+salário de R$ 2.501,00 a R$ 4.000,00: aplicar alíquota de 8%;
+salário de R$ 4.001,00 a R$ 7.000,00: aplicar alíquota de 12%;
+salário acima de R$ 7.000,00: aplicar alíquota de 27,5%;
+Com saída informe o salário e o valor do imposto a ser pago.
+ALGORITMO_CALCULO_IMPOSTO_DE_RENDA
+VAR salario, imposto : REAL
+ INICIO
+   |ESCREVA("DIGITE O VALOR DO SALÁRIO:")
+   |LEIA(salario)
+   |imposto← 0
+   |  SE (salario <= 1200) ENTAO
+   |  |  imposto← 0
+   |  SENAO SE (salario >= 1201) E (salario <= 2500) ENTAO
+   |  |  imposto← salario * 0.05
+   |  SENAO SE (salario >= 2501) E (salario <= 4000) ENTAO
+   |  |  imposto← salario * 0.08
+   |  SENAO SE (salario >= 4001) E (salario <= 7000) ENTAO
+   |  |  imposto← salario * 0.12
+   |  SENAO 
+   |  |  imposto← salario * 0.275
+   |  FIM-SE
+   |  ESCREVA("VALOR DO SALÁRIO:R$" + salario)
+   |  ESCREVA("VALOR DO IMPOSTO PARA PAGAR:R$" + imposto )
+ FIM
+
+ALGORITMO_CALCULO_IMPOSTO_DE_RENDA_C#
+double valorSalario, valorImposto;
+Console.WriteLine("Informe o salário: ");
+valorSalario = Convert.ToDouble(Console.ReadLine());
+valorImposto = 0;
+if (valorSalario <= 1200.00)
+{
+    valorImposto = 0;
+}
+else if (valorSalario > 1200.00 && valorSalario <= 2500.00)
+{
+    valorImposto = valorSalario * 0.05;
+}
+else if (valorSalario > 2500.00 && valorSalario <= 4000.00)
+{
+    valorImposto = valorSalario * 0.08;
+}
+else if (valorSalario > 4000.00 && valorSalario <= 7000.00)
+{
+    valorImposto = valorSalario * 0.12;
+}
+else
+{
+    valorImposto = valorSalario * 0.275;
+}
+Console.WriteLine("Valor do Salário: R$ " + valorSalario);
+Console.WriteLine("Valor do Imposto a ser pago: R$ " + valorImposto);
+
+
+//13  - Indique na linha de resposta a expressão aritmética a ser calculada a partir da tomada de decisão composta em análise. Considere os seguintes valores: A=2, B=3, C=5 e D=9. Não é necessário calcular os valores da variável.
+a) X←(A+B)∗D = X←(2+3)∗9 <= (2+3)∗9
+b) X←(A+B)/D∗(C+D) = X←(2+3)/9∗(5+9) <= (2+3)/9∗(5+9)
+
+//14- Elabore um algoritmo que após receber números de 1 a 7 indique qual é o dia da semana correspondente. Por exemplo 1 - DOMINGO;2-SEGUNDA, etc...
+ALGORITMO_DIAS_SEMANAIS
+ VAR numero : INTEIRO
+ INICIO
+   |ESCREVA("DIGITE UM NÚMERO DE 1 a 7:")
+   |LEIA(numero)
+   |  SE (numero = 1) ENTAO
+   |  |  ESCREVA("DOMINGO")
+   |  SENAO SE (numero = 2) ENTAO
+   |  |  ESCREVA("SEGUNDA")
+   |  SENAO SE (numero = 3) ENTAO
+   |  |  ESCREVA("TERÇA")
+   |  SENAO SE (numero = 4) ENTAO
+   |  |  ESCREVA("QUARTA")
+   |  SENAO SE (numero = 5) ENTAO
+   |  |  ESCREVA("QUINTA")
+   |  SENAO SE (numero = 6) ENTAO
+   |  |  ESCREVA("SEXTA")
+   |  SENAO SE (numero = 7) ENTAO
+   |  |  ESCREVA("SÁBADO")
+   |  SENAO
+   |  |  ESCREVA("Número inválido! Por favor, digite um número de 1 a 7.")
+   |  FIM-SE
+  FIM
+
+ALGORITMO_DIAS_SEMANAIS_C#
+int numero;
+Console.WriteLine("Digite um número de 1 a 7:");
+numero = Convert.ToInt32(Console.ReadLine());
+if (numero == 1)
+{
+    Console.WriteLine("DOMINGO");
+}
+else if (numero == 2)
+{
+    Console.WriteLine("SEGUNDA");
+}
+else if (numero == 3)
+{
+    Console.WriteLine("TERÇA");
+}
+else if (numero == 4)
+{
+    Console.WriteLine("QUARTA");
+}
+else if (numero == 5)
+{
+    Console.WriteLine("QUINTA");
+}
+else if (numero == 6)
+{
+    Console.WriteLine("SEXTA");
+}
+else if (numero == 7)
+{
+    Console.WriteLine("SÁBADO");
+}
+else
+{
+    Console.WriteLine("Número inválido! Por favor, digite um número de 1 a 7.");
+}
+
+
+//15- Elabore um algoritmo que leia o salário e profissão e caso a profissão seja de "Técnico", reajuste o salário informado em 15%; No caso da profissão ser "Gerente" o reajuste do salário será de 13%, nos demais casos o aumento será de 11%. Como saída o algoritmo deverá mostrar a profissão, o salário atual e o salário reajustado.
+ALGORITMO_REAJUSTE_SALARIO_PROFISSAO
+ VAR salario, salarioFinal : REAL
+     profissao : CARACTER
+ INICIO
+   |ESCREVA("DIGITE UMA PROFISSAO:")
+   |LEIA(profissao)
+   |ESCREVA("DIGITE O VALOR DO SALÁRIO:")
+   |LEIA(salario)
+   |  salarioFinal← salario
+   |  SE (profissao = "Técnico") ENTAO
+   |  |  salarioFinal← salario * 1.15
+   |  SENAO SE (profissao = "Gerente") ENTAO
+   |  |  salarioFinal← salario * 1.13
+   |  SENAO
+   |  |  salarioFinal← salario * 1.11
+   |  FIM-SE
+   |  ESCREVA("Profissão:" + profissao)
+   |  ESCREVA("O valor do salário atual:" + salario)
+   |  ESCREVA("O valor do salário depois do reajuste:" + salarioFinal)
+  FIM
+
+ALGORITMO_REAJUSTE_SALARIO_PROFISSAO_C#
+double salarioAtual, salarioReajustado;
+string profissao;
+Console.WriteLine("Informe a profissão:");
+profissao = Console.ReadLine();
+Console.WriteLine("Informe o valor do salário:");
+salarioAtual = Convert.ToDouble(Console.ReadLine());
+salarioReajustado = salarioAtual;
+if (profissao == "Técnico")
+{
+    salarioReajustado = salarioAtual * 1.15;
+}
+else if (profissao == "Gerente")
+{
+    salarioReajustado = salarioAtual * 1.13;
+}
+else
+{
+    salarioReajustado = salarioAtual * 1.11;
+}
+Console.WriteLine("Profissão: " + profissao);
+Console.WriteLine("Salário atual: R$ " + salarioAtual);
+Console.WriteLine("Salário reajustado: R$ " + salarioReajustado);

@@ -1,0 +1,260 @@
+// 1- Escreva um algoritmo que receba um número e mostre a sua metade somente quando ela for maior que cinquenta.
+ALGORITMO_METADE_DE_UM_NUMERO
+ VAR numero, metade : REAL
+ INICIO
+   |ESCREVA("DIGITE UM NÚMERO: ")
+   |LEIA(numero)
+   | SE (metade > 50) ENTAO
+   |  |  metade← numero / 2
+   |  FIM-SE
+   |ESCREVA("A metade do número escolhido é: " + metade)
+ FIM
+
+ALGORITMO_METADE_DE_UM_NUMERO_C#
+double numero, metadeNumero;
+Console.WriteLine("Digite um número de sua preferência:");
+numero = Convert.ToDouble(Console.ReadLine());
+metadeNumero = numero / 2;
+if (metadeNumero > 50)
+{
+    Console.WriteLine("A metade do número escolhido é: " + metadeNumero);
+}
+
+ALGORITMO_METADE_DE_UM_NUMERO_C#_WEBAPI
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Logging.Abstractions;
+
+namespace APIExercicioLogicaEstruturaDecisaoSimples.Controllers
+{
+    public class MetadeNumeroController : Controller
+    {
+        [HttpGet("MetadeNumero")]
+        public string MetadeNumero(double numeroUsuario)
+        {
+            double numero, metade;
+            numero = (double)numeroUsuario;
+            if (numeroUsuario > 50)
+            {
+                metade = numero / 2; 
+                return $" O numero {numero} é maior que 50 a sua metade é {metade}";
+            }
+            return null;
+        }
+    }
+}
+
+
+//2- Crie um algoritmo que receba um número e mostre o número e o seu dobro somente quando o número for maior que noventa e menor que cem.
+ALGORITMO_DOBRO_DE_UM_NUMERO
+ VAR numero, dobro : REAL
+ INICIO
+   |ESCREVA("DIGITE UM NÚMERO:")
+   |LEIA(numero)
+   |  SE (numero>90) E (numero<100) ENTAO
+   |   |  dobro← numero * 2
+   |  FIM-SE
+   |ESCREVA("O número "+ numero + " é maior que 90 e menor 100 logo o seu dobro é "+ dobro)
+ FIM
+
+ALGORITMO_DOBRO_DE_UM_NUMERO_C#
+double numero, dobroNumero;
+Console.WriteLine("Digite um número de sua preferência:");
+numero=Convert.ToDouble(Console.ReadLine());
+dobroNumero = numero * 2;
+if (numero > 90 && numero < 100)
+{
+    Console.WriteLine("O número escolhido é: " + numero);
+    Console.WriteLine("O dobro do número escolhido é: " + dobroNumero);
+}
+
+ALGORITMO_DOBRO_DE_UM_NUMERO_C#_WEBAPI
+using Microsoft.AspNetCore.Mvc;
+
+namespace APIExercicioLogicaEstruturaDecisaoSimples.Controllers
+{
+    public class DobroNumeroController : Controller
+    {
+        [HttpGet("DobroNumero")]
+        public string DobroNumero(double numeroUsuario)
+        {
+            double numero, dobro;
+            numero = numeroUsuario;
+            dobro = numero * 2;
+            if ((numero > 90) && (numero < 100))
+            {
+                return $" O numero {numero} é maior que 90 o seu dobro é {dobro}";
+            }
+            return null;
+        }
+
+    }
+}
+
+//3- Faça um algoritmo que receba um número e mostre a sua quinta parte somente quando ela for menor que cinquenta ou maior que mil.
+ALGORITMO_QUINTA_PARTE
+ VAR numero, quintaParte : REAL
+ INICIO
+   |ESCREVA("DIGITE UM NÚMERO:")
+   |LEIA(numero)
+   |  quintaParte← numero / 5
+   |  SE (quintaParte<50) OU (quintaParte>1000) ENTAO
+   |  |  ESCREVA("A quinta parte do número é: " + quintaParte)
+   |  FIM-SE
+ FIM
+
+ALGORITMO_QUINTA_PARTE_C#
+double numero, quintaParte;
+Console.WriteLine("Digite um número de sua preferência:");
+numero= Convert.ToDouble(Console.ReadLine());
+quintaParte = (numero / 5);
+if (numero < 50 || numero > 1000)
+{
+    Console.WriteLine("A quinta parte do número escolhido é: " + quintaParte);
+}
+
+ALGORITMO_QUINTA_PARTE_C#_WEBAPI
+using Microsoft.AspNetCore.Mvc;
+
+namespace APIExercicioLogicaEstruturaDecisaoSimples.Controllers
+{
+    public class QuintaParteNumeroController : Controller
+    {
+        [HttpGet("QuintaParteNumero")]
+        public string QuintaParteNumero(double numeroUsuario)
+        {
+            double numero, quintaParte;
+            numero = numeroUsuario;
+            quintaParte = numero / 5;
+            if ((quintaParte > 50) || (quintaParte < 1000))
+            {
+                return $"Aquinta parte do número {numero} é {quintaParte} e ela é maior que 50";
+            }
+            return null;
+        }
+    }
+}
+
+
+//4- Elabore um algoritmo que receba um número e mostre o número e o sêxtuplo somente quando o número for maior que noventa.
+ALGORITMO_SEXTUPLO
+ VAR numero, sextuplo : REAL
+ INICIO
+   |ESCREVA("DIGITE UM NÚMERO:")
+   |LEIA(numero)
+   |  SE (numero > 90) ENTAO
+   | | sextuplo← numero * 6
+   | FIM-SE
+   |ESCREVA("O número "+ numero + " é maior que 90 logo o seu sextuplo é "+ sextuplo)
+ FIM
+
+ALGORITMO_SEXTUPLO_C#
+double numero, sextuplo;
+Console.WriteLine("Digite um número de sua preferência:");
+numero= Convert.ToDouble(Console.ReadLine());
+sextuplo = numero * 6;
+if (numero > 90)
+{
+    Console.WriteLine("O número escolhido é: " + numero);
+    Console.WriteLine("O sêxtuplo do número escolhido é: " + sextuplo);
+}
+
+ALGORITMO_SEXTUPLO_C#_WEBAPI
+using Microsoft.AspNetCore.Mvc;
+
+namespace APIExercicioLogicaEstruturaDecisaoSimples.Controllers
+{
+    public class SextuploNumeroController : Controller
+    {
+        [HttpGet("SextuploNumero")]
+        public string SextuploNumero(double numeroUsuario)
+        {
+            double numero, sextuplo;
+            numero = numeroUsuario;
+            sextuplo = numero * 6;
+            if (numeroUsuario > 90)
+            {
+                return $"O sextuplo do número {numero} é {sextuplo} e ele é maior que 90.";
+            }
+            return null;
+        }
+    }
+}
+
+//5- Faça um algoritmo que receba um número e mostre o número somente quando o número for par.
+ALGORITMO_NUMERO_PAR
+ VAR numero : INTEIRO
+ INICIO 
+   |ESCREVA("DIGITE UM NÚMERO:")
+   |LEIA(numero)
+   |  SE (numero MOD 2)=0 ENTAO
+   | | ESCREVA("O número "+ numero + " é par.")
+   | FIM-SE
+ FIM
+
+ALGORITMO_NUMERO_PAR_C#
+Int64 numero;
+Console.WriteLine("Digite um número de sua preferência:");
+numero = Convert.ToInt64(Console.ReadLine());
+if (numero % 2 == 0)
+{
+    Console.WriteLine("O número par escolhido é " + numero);
+}
+
+ALGORITMO_NUMERO_PAR_C#_WEBAPI
+using Microsoft.AspNetCore.Mvc;
+
+namespace APIEXERCICIOLOGICAESTRUTURADECISAOSIMPLES.Controllers
+{
+    public class NumeroParController : Controller
+    {
+        [HttpGet("NumeroPar")]
+        public string NumeroPar(int numeroUsuario)
+        {
+            int numero;
+            numero = numeroUsuario;
+            if (numero % 2 == 0)
+            {
+                return $"O número é {numero}";
+            }
+            return null;
+
+        }
+    }
+}
+
+
+//6- Faça um algoritmo que leia dois números inteiros e determine qual dos dois é maior.
+ALGORITMO_MAIOR_DOIS_NUMEROS
+ VAR numero1, numero2 : REAL
+ INICIO
+   |ESCREVA("DIGITE O NÚMERO 1:")
+   |LEIA(numero1)
+   |ESCREVA("DIGITE O NÚMERO 2:")
+   |LEIA(numero2)
+   | SE(numero1>numero2) ENTÃO
+   | | ESCREVA("O MAIOR NÚMERO É " + numerol)
+   | SENÃO SE (numero2>numero1) ENTAO
+   | | ESCREVA("O MAIOR NÚMERO É "+ numero2)
+   | SENÃO
+   | |  ESCREVA("OS NÚMEROS SÃO IGUAIS")
+   | FIM-SE
+ FIM
+
+ALGORITMO_MAIOR_DOIS_NUMEROS_C#
+Int64 numero1, numero2;
+Console.WriteLine("Digite o primeiro número:");
+numero1 = Convert.ToInt64(Console.ReadLine());
+Console.WriteLine("Digite o segundo número:");
+numero2 = Convert.ToInt64(Console.ReadLine());
+if (numero1 > numero2)
+{
+    Console.WriteLine("O maior número é: " + numero1);
+}
+else if (numero2 > numero1)
+{
+    Console.WriteLine("O maior número é: " + numero2);
+}
+else
+{
+    Console.WriteLine("Os dois números são iguais.");
+}
