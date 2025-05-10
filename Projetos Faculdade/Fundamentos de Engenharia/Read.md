@@ -8,13 +8,11 @@ Esta pasta reúne todos os materiais da **primeira entrega do Bootcamp I**, dese
 
 - ✅ **Currículo (Google Docs)**  
   Documento com meus dados profissionais, formação, experiências e habilidades.  
-  🔗 [Acessar currículo](https://docs.google.com/document/d/1tA_dfKLxjUrgccpbDC53xopLlb4zNf7rNyPoqYUecpE/e
-dit?usp=sharing)
+  🔗 [Acessar currículo](https://docs.google.com/document/d/1tA_dfKLxjUrgccpbDC53xopLlb4zNf7rNyPoqYUecpE/edit?usp=sharing)
 
 - ✅ **Apresentação: Habilidades, Competências e Projeto (Google Slides)**  
   Slides explicando minhas principais habilidades, competências e um projeto pessoal em desenvolvimento.  
-  🔗 [Acessar apresentação](https://docs.google.com/presentation/d/1iaMjHFfzxS0FJ5lN-5YtqPGsSmOju0zxH_m8NGY6
-Ywk/edit?usp=sharing)
+  🔗 [Acessar apresentação](https://docs.google.com/presentation/d/1iaMjHFfzxS0FJ5lN-5YtqPGsSmOju0zxH_m8NGY6Ywk/edit?usp=sharing)
 
 - ✅ **Vídeo da Apresentação (YouTube)**  
   Apresentação oral da primeira etapa do desafio, abordando os materiais acima.  
