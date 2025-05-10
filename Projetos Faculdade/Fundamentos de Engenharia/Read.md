@@ -25,7 +25,7 @@ Esta pasta reúne todos os materiais da **primeira entrega do Bootcamp I**, dese
 
 - ✅ **Google Sites Pessoal**  
   Meu site pessoal com resumo das atividades e informações complementares.  
-  🔗 [Acessar site](https://calendar.google.com/calendar/u/0?cid=bHVjYXMub2dicmFuZGFvQGdtYWlsLmNvbQ)
+  🔗 [Acessar site](https://sites.google.com/d/1OWBLHCgxirEHzVwDzg3La_P6RzadPoZJ/p/1sepICB6LqmhB4LutVYAMMqh4OmfF3Ca3/edit)
 
 ---
 
