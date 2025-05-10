@@ -23,6 +23,7 @@ Aqui você encontrará desde desafios propostos em disciplinas até experimentos
 - Boa comunicação e trabalho em equipe
 - Capacidade de Resolução de problemas
 - Organização e Responsabilidade
+
 ---
 
 
@@ -39,17 +40,21 @@ Aqui você encontrará desde desafios propostos em disciplinas até experimentos
   <img align="center" alt="Google" src="https://img.shields.io/badge/Google%20Calendar-A50E0E?style=for-the-badge&logo=google-sites&logoColor=white" />
   <img align="center" alt="Youtube" src="https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white" />
 </div><br/>
+
 ---
 
 ## 🔗 Integrações
 
 [![Linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/lucas-kauan-87ab7535b/)
 [![Vídeo de apresentação](https://img.shields.io/badge/YouTube-FF0000?style=for-the-badge&logo=youtube&logoColor=white)]()
+
 ---
 
 ## 📌 Observações
 
 Sinta-se à vontade para explorar os projetos, sugerir melhorias ou colaborar via pull requests!
+
+---
 
 ## Comentários
 Yan Fellipe - Trabalho excelente! A organização do repositório e a forma como os projetos estão documentados mostram dedicação e cuidado com os detalhes.
