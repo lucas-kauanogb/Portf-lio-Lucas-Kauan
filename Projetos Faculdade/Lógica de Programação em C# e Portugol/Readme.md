@@ -17,7 +17,7 @@ Esta pasta contém exercícios e desafios desenvolvidos durante a disciplina de 
 
 ## 🛠️ Tecnologias Utilizadas
 
-- C# (Console Application)
+- C# (Console Application and Web API)
 - .NET SDK (versão 6.0 ou superior)
 - Visual Studio ou Visual Studio Code
 
