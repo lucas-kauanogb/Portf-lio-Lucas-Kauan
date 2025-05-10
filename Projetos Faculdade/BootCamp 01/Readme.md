@@ -17,9 +17,9 @@ Esta pasta contém os materiais da primeira entrega do Bootcamp I, realizada com
   Meu site pessoal com resumo das atividades e informações complementares.  
   🔗 [Acessar site](https://sites.google.com/d/1OWBLHCgxirEHzVwDzg3La_P6RzadPoZJ/p/1sepICB6LqmhB4LutVYAMMqh4OmfF3Ca3/edit)
 
-  - ✅ **Agenda do Desafio (Google Calendar)**  
-  Planejamento e organização das atividades previstas para o desafio.  
-  🔗 [Ver agenda](https://calendar.google.com/calendar/u/0?cid=eWFuZnNuZXJpQGdtYWlsLmNvbQ)
+- ✅ **Agenda do Desafio (Google Calendar)**  
+Planejamento e organização das atividades previstas para o desafio.  
+🔗 [Ver agenda](https://calendar.google.com/calendar/u/0?cid=eWFuZnNuZXJpQGdtYWlsLmNvbQ)
 
 - ✅ **Apresentação: Habilidades, Competências e Projeto (Google Slides)**  
   Slides explicando minhas principais habilidades, competências e um projeto pessoal em desenvolvimento.  
