@@ -1,7 +1,6 @@
 ## 🧠 Atividades de Lógica de Programação e C# 🖥️
 
-Esta pasta contém exercícios e desafios desenvolvidos durante a disciplina de **Lógica de Programação** com a linguagem **C#**. Os arquivos aqui presentes foram criados com o objetivo de praticar o raciocínio lógico, estruturação de algoritmos e sintaxe da linguagem C#.
-
+Esta pasta reúne exercícios e desafios realizados na disciplina de Lógica de Programação, utilizando a linguagem C# e Portugol. Os arquivos têm como objetivo reforçar o raciocínio lógico, a construção de algoritmos e a prática da sintaxe da linguagem.
 ---
 
 ## 📂 Conteúdo da Pasta
@@ -17,9 +16,9 @@ Esta pasta contém exercícios e desafios desenvolvidos durante a disciplina de 
 
 ## 🛠️ Tecnologias Utilizadas
 
-- C# (Console Application and Web API)
 - .NET SDK (versão 6.0 ou superior)
 - Visual Studio ou Visual Studio Code
+- C# (Console Application and Web API)
 
 ---
 
