@@ -1,16 +1,18 @@
 # Portfólio de Projetos - Lucas Kauan 👨‍💻
-Olá! Meu nome é **Lucas Kauan** e sou estudante de **Engenharia de Software**, interessado por tecnologia, desenvolvimento de sistemas e por aprender continuamente. Este repositório reúne meus projetos acadêmicos e pessoais, aplicando boas práticas de versionamento, documentação e colaboração com Git e GitHub. Aqui você encontrará desde desafios do curso até experimentos e ideias próprias.
+Olá! Sou Lucas Kauan, estudante de Engenharia de Software com grande interesse por tecnologia, desenvolvimento de sistemas e aprendizado contínuo.
 
-Este repositório reúne meus projetos acadêmicos e pessoais desenvolvidos durante minha graduação em Engenharia de Software. O objetivo é demonstrar minhas habilidades técnicas em constante desenvolvimento e meu progresso na área.
+Este espaço reúne meus projetos acadêmicos e pessoais criados ao longo da graduação, com foco em boas práticas de versionamento, documentação e colaboração utilizando Git e GitHub.
+
+Aqui você encontrará desde desafios propostos em disciplinas até experimentos e ideias próprias. O objetivo é compartilhar meu progresso técnico e demonstrar minha evolução na área de desenvolvimento de software.
 
 ---
 
 ## 📁 Estrutura do Repositório
 
-- `Projetos Faculdade/`: Projetos feitos para disciplinas ou desafios do curso.
-- `Lógica de Programação em C# e Portugol/`: Esta pasta contém exercícios e desafios desenvolvidos durante a disciplina de Lógica de Programação com a linguagem C#.
-- `BootCamp 01/`: Esta pasta reúne todos os materiais da **primeira entrega do Bootcamp I**, desenvolvida como parte do curso de Engenharia de Software. O objetivo foi reunir informações profissionais, apresentar um projeto pessoal e demonstrar competências fundamentais por meio de diferentes formatos de entrega.
-- `Fundamentos de Engenharia/`: Esta pasta contém o trabalho de sistematização apresentado como requisito parcial para a conclusão do curso de **Engenharia de Software** no **Centro Universitário de Brasília (CEUB)**. O estudo utilizou a simulação "Densidade", da plataforma **PHET**, para investigar o comportamento de objetos em meio líquido com base em sua massa, volume e densidade.
+- `Projetos Faculdade/`: Trabalhos desenvolvidos como parte das disciplinas e atividades práticas do curso de Engenharia de Software.
+- `Lógica de Programação em C# e Portugol/`: Contém exercícios e desafios realizados na disciplina de Lógica de Programação, utilizando as linguagens C# e Portugol.
+- `BootCamp 01/`: Diretório com todos os materiais da primeira entrega do Bootcamp I. A atividade teve como objetivo apresentar informações profissionais, um projeto pessoal e demonstrar competências essenciais em diferentes formatos.
+- `Fundamentos de Engenharia/`: Inclui o trabalho de sistematização apresentado como parte da disciplina Fundamentos de Engenharia. A atividade utilizou a simulação "Densidade", da plataforma PHET, para analisar o comportamento de objetos em líquidos com base em massa, volume e densidade. Projeto desenvolvido no Centro Universitário de Brasília (CEUB).
   
 ---
 ## Competências
